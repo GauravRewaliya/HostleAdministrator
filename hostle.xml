@@ -1,0 +1,66 @@
+<!--
+MyEclipse Database Explorer Driver Repository
+-->
+
+<Beans version="1.0">
+    <Bean Class="net.sourceforge.squirrel_sql.fw.sql.SQLDriver">
+        <driverClassName>com.mysql.cj.jdbc.Driver</driverClassName>
+        <identifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+            <string>-56952b37:184522dfa33:-7f77</string>
+        </identifier>
+        <jarFileName/>
+        <jarFileNames Indexed="true">
+            <Bean Class="net.sourceforge.squirrel_sql.fw.util.beanwrapper.StringWrapper">
+                <string>E:\mysql-connector-java-8.0.30.jar</string>
+            </Bean>
+        </jarFileNames>
+        <name>MySQL Driver0</name>
+        <url>jdbc:mysql://remotemysql.com:3306/cT3gafPYZK</url>
+    </Bean>
+    <Bean Class="net.sourceforge.squirrel_sql.fw.sql.SQLDriver">
+        <driverClassName>oracle.jdbc.OracleDriver</driverClassName>
+        <identifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+            <string>6ae9356a:18455a791bd:-7f72</string>
+        </identifier>
+        <jarFileName/>
+        <jarFileNames Indexed="true">
+            <Bean Class="net.sourceforge.squirrel_sql.fw.util.beanwrapper.StringWrapper">
+                <string>E:\ojdbc8Gr.jar</string>
+            </Bean>
+        </jarFileNames>
+        <name>Oracle Thin Driver0</name>
+        <url>jdbc:oracle:thin:@localhost:1521:xe</url>
+    </Bean>
+    <Bean Class="com.genuitec.eclipse.sqlexplorer.utils.ConnectionProfile">
+        <activate>false</activate>
+        <driverIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+            <string>-56952b37:184522dfa33:-7f77</string>
+        </driverIdentifier>
+        <identifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+            <string>-56952b37:184522dfa33:-7fd0</string>
+        </identifier>
+        <name>Driver</name>
+        <password encryption="true">hMZHRBRao4SbXNQHHw7Lkg==</password>
+        <promptForPassword>false</promptForPassword>
+        <schema Indexed="true"/>
+        <schemaDisplayPolicy>0</schemaDisplayPolicy>
+        <url>jdbc:mysql://remotemysql.com:3306/cT3gafPYZK</url>
+        <userName>cT3gafPYZK</userName>
+    </Bean>
+    <Bean Class="com.genuitec.eclipse.sqlexplorer.utils.ConnectionProfile">
+        <activate>false</activate>
+        <driverIdentifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+            <string>6ae9356a:18455a791bd:-7f72</string>
+        </driverIdentifier>
+        <identifier Class="net.sourceforge.squirrel_sql.fw.id.UidIdentifier">
+            <string>6ae9356a:18455a791bd:-7fcb</string>
+        </identifier>
+        <name>Oracle</name>
+        <password encryption="true">8W6m2CYg17w=</password>
+        <promptForPassword>false</promptForPassword>
+        <schema Indexed="true"/>
+        <schemaDisplayPolicy>0</schemaDisplayPolicy>
+        <url>jdbc:oracle:thin:@localhost:1521:xe</url>
+        <userName>gr</userName>
+    </Bean>
+</Beans>
